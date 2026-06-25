@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "comsol-codex-mcp": {
+      "command": "comsol-mcp-server",
+      "args": [],
+      "env": {
+        "COMSOL_HOME": "E:\\Program Files\\COMSOL\\COMSOL63"
+      }
+    }
+  }
+}
+
