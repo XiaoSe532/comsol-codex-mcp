@@ -1,0 +1,19 @@
+comsol_version: "6.3"
+workflow: "java-api-batch"
+entrypoint: "ModelSweep.java"
+outputs:
+  raw_stdout: "outputs/all_data.txt"
+  batch_log: "outputs/batch.log"
+  stderr: "outputs/stderr.log"
+  package: "outputs/lightweight_results.zip"
+include_patterns:
+  - "*.csv"
+  - "*.md"
+  - "*.py"
+  - "*.java"
+exclude_patterns:
+  - "*.mph"
+  - "*.class"
+  - "*.log"
+  - "*_raw.txt"
+
